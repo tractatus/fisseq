@@ -1,0 +1,1073 @@
+[
+    {
+        "definitions" : [
+            {
+                "column" : 24,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/CThinPlateSpline.cpp",
+                "kind" : 7,
+                "line" : 40,
+                "name" : "addCorrespondence(const Point &, const Point &)",
+                "parent_name" : "CThinPlateSpline",
+                "usr" : "c:@C@CThinPlateSpline@F@addCorrespondence#&1$@N@cv@C@Point_>#I#S0_#"
+            },
+            {
+                "column" : 24,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/CThinPlateSpline.cpp",
+                "kind" : 7,
+                "line" : 53,
+                "name" : "setCorrespondences(const std::vector<Point> &, const std::vector<Point> &)",
+                "parent_name" : "CThinPlateSpline",
+                "usr" : "c:@C@CThinPlateSpline@F@setCorrespondences#&1$@N@std@N@__1@C@vector>#$@N@cv@C@Point_>#I#$@N@std@N@__1@C@allocator>#S2_#S0_#"
+            },
+            {
+                "column" : 26,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/CThinPlateSpline.cpp",
+                "kind" : 7,
+                "line" : 65,
+                "name" : "fktU(const Point &, const Point &)",
+                "parent_name" : "CThinPlateSpline",
+                "usr" : "c:@C@CThinPlateSpline@F@fktU#&1$@N@cv@C@Point_>#I#S0_#"
+            },
+            {
+                "column" : 24,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/CThinPlateSpline.cpp",
+                "kind" : 7,
+                "line" : 80,
+                "name" : "computeSplineCoeffs(std::vector<Point> &, std::vector<Point> &, float, const TPS_INTERPOLATION)",
+                "parent_name" : "CThinPlateSpline",
+                "usr" : "c:@C@CThinPlateSpline@F@computeSplineCoeffs#&$@N@std@N@__1@C@vector>#$@N@cv@C@Point_>#I#$@N@std@N@__1@C@allocator>#S2_#S0_#f#1$@E@TPS_INTERPOLATION#"
+            },
+            {
+                "column" : 25,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/CThinPlateSpline.cpp",
+                "kind" : 7,
+                "line" : 189,
+                "name" : "interpolate_forward_(const Point &)",
+                "parent_name" : "CThinPlateSpline",
+                "usr" : "c:@C@CThinPlateSpline@F@interpolate_forward_#&1$@N@cv@C@Point_>#I#"
+            },
+            {
+                "column" : 25,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/CThinPlateSpline.cpp",
+                "kind" : 7,
+                "line" : 225,
+                "name" : "interpolate_back_(const Point &)",
+                "parent_name" : "CThinPlateSpline",
+                "usr" : "c:@C@CThinPlateSpline@F@interpolate_back_#&1$@N@cv@C@Point_>#I#"
+            },
+            {
+                "column" : 25,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/CThinPlateSpline.cpp",
+                "kind" : 7,
+                "line" : 262,
+                "name" : "interpolate(const Point &, const TPS_INTERPOLATION)",
+                "parent_name" : "CThinPlateSpline",
+                "usr" : "c:@C@CThinPlateSpline@F@interpolate#&1$@N@cv@C@Point_>#I#1$@E@TPS_INTERPOLATION#"
+            },
+            {
+                "column" : 24,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/CThinPlateSpline.cpp",
+                "kind" : 7,
+                "line" : 279,
+                "name" : "warpImage(const cv::Mat &, cv::Mat &, float, const int, const TPS_INTERPOLATION)",
+                "parent_name" : "CThinPlateSpline",
+                "usr" : "c:@C@CThinPlateSpline@F@warpImage#&1$@N@cv@C@Mat#&S1_#f#1I#1$@E@TPS_INTERPOLATION#"
+            },
+            {
+                "column" : 24,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/CThinPlateSpline.cpp",
+                "kind" : 7,
+                "line" : 300,
+                "name" : "getMaps(cv::Mat &, cv::Mat &)",
+                "parent_name" : "CThinPlateSpline",
+                "usr" : "c:@C@CThinPlateSpline@F@getMaps#&$@N@cv@C@Mat#S0_#"
+            },
+            {
+                "column" : 24,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/CThinPlateSpline.cpp",
+                "kind" : 7,
+                "line" : 306,
+                "name" : "computeMaps(const Size &, Mat_<float> &, Mat_<float> &, const TPS_INTERPOLATION)",
+                "parent_name" : "CThinPlateSpline",
+                "usr" : "c:@C@CThinPlateSpline@F@computeMaps#&1$@N@cv@C@Size_>#I#&$@N@cv@C@Mat_>#f#S2_#1$@E@TPS_INTERPOLATION#"
+            }
+        ],
+        "file" : "/Users/danielfurth/GitHub/fisseq/src/CThinPlateSpline.cpp",
+        "file_last_write" : 1462749022
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/CThinPlateSpline.h",
+                "kind" : 4,
+                "line" : 40,
+                "name" : "TPS_INTERPOLATION",
+                "parent_name" : "",
+                "usr" : "c:@E@TPS_INTERPOLATION"
+            },
+            {
+                "column" : 2,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/CThinPlateSpline.h",
+                "kind" : 5,
+                "line" : 42,
+                "name" : "FORWARD_WARP",
+                "parent_name" : "",
+                "usr" : "c:@E@TPS_INTERPOLATION@FORWARD_WARP"
+            },
+            {
+                "column" : 2,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/CThinPlateSpline.h",
+                "kind" : 5,
+                "line" : 43,
+                "name" : "BACK_WARP",
+                "parent_name" : "",
+                "usr" : "c:@E@TPS_INTERPOLATION@BACK_WARP"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/CThinPlateSpline.h",
+                "kind" : 2,
+                "line" : 54,
+                "name" : "CThinPlateSpline",
+                "parent_name" : "",
+                "usr" : "c:@C@CThinPlateSpline"
+            }
+        ],
+        "file" : "/Users/danielfurth/GitHub/fisseq/src/CThinPlateSpline.h",
+        "file_last_write" : 1462748690
+    },
+    {
+        "definitions" : [
+        ],
+        "file" : "/Users/danielfurth/GitHub/fisseq/src/ThinPlateSpline.cpp",
+        "file_last_write" : 1476128994
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 13,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/alg.h",
+                "kind" : 6,
+                "line" : 38,
+                "name" : "split(vector<T> &, vector<T> &, vector<T> &)",
+                "parent_name" : "",
+                "usr" : "c:@FT@>1#Tsplit#&>@N@std@N@__1@CT>2#T#T@vector2t0.0>@N@std@N@__1@CT>1#T@allocator1S2_#S0_#S0_#"
+            },
+            {
+                "column" : 13,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/alg.h",
+                "kind" : 6,
+                "line" : 52,
+                "name" : "vecmult(vector<T> &, double)",
+                "parent_name" : "",
+                "usr" : "c:@FT@>1#Tvecmult#&>@N@std@N@__1@CT>2#T#T@vector2t0.0>@N@std@N@__1@CT>1#T@allocator1S2_#d#"
+            },
+            {
+                "column" : 13,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/alg.h",
+                "kind" : 6,
+                "line" : 61,
+                "name" : "merge(vector<T> &, vector<T> &, vector<T> &)",
+                "parent_name" : "",
+                "usr" : "c:@FT@>1#Tmerge#&>@N@std@N@__1@CT>2#T#T@vector2t0.0>@N@std@N@__1@CT>1#T@allocator1S2_#S0_#S0_#"
+            },
+            {
+                "column" : 13,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/alg.h",
+                "kind" : 6,
+                "line" : 75,
+                "name" : "transpose(vector<T> &, int, int, vector<T> &)",
+                "parent_name" : "",
+                "usr" : "c:@FT@>1#Ttranspose#&>@N@std@N@__1@CT>2#T#T@vector2t0.0>@N@std@N@__1@CT>1#T@allocator1S2_#I#I#S0_#"
+            }
+        ],
+        "file" : "/Users/danielfurth/GitHub/fisseq/src/alg.h",
+        "file_last_write" : 1347673072
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 12,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/filtcoef.h",
+                "kind" : 6,
+                "line" : 36,
+                "name" : "filtcoef(string, vector<double> &, vector<double> &, vector<double> &, vector<double> &)",
+                "parent_name" : "",
+                "usr" : "c:@F@filtcoef#$@N@std@N@__1@C@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@C@allocator>#C#&$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#S3_#S3_#S3_#"
+            }
+        ],
+        "file" : "/Users/danielfurth/GitHub/fisseq/src/filtcoef.h",
+        "file_last_write" : 1347673072
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/flatfieldcorrection.cpp",
+                "kind" : 6,
+                "line" : 11,
+                "name" : "getGain(int, int, int, vector<cv::Mat> &, cv::Mat &, bool)",
+                "parent_name" : "",
+                "usr" : "c:@F@getGain#I#I#I#&$@N@std@N@__1@C@vector>#$@N@cv@C@Mat#$@N@std@N@__1@C@allocator>#S2_#&S2_#b#"
+            }
+        ],
+        "file" : "/Users/danielfurth/GitHub/fisseq/src/flatfieldcorrection.cpp",
+        "file_last_write" : 1466584492
+    },
+    {
+        "definitions" : [
+        ],
+        "file" : "/Users/danielfurth/GitHub/fisseq/src/libics.h",
+        "file_last_write" : 1276847157
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 7,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/lift.h",
+                "kind" : 2,
+                "line" : 37,
+                "name" : "liftscheme",
+                "parent_name" : "",
+                "usr" : "c:@C@liftscheme"
+            },
+            {
+                "column" : 5,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/lift.h",
+                "kind" : 7,
+                "line" : 661,
+                "name" : "nlifts",
+                "parent_name" : "liftscheme",
+                "usr" : "c:@C@liftscheme@F@nlifts#"
+            },
+            {
+                "column" : 8,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/lift.h",
+                "kind" : 7,
+                "line" : 665,
+                "name" : "K",
+                "parent_name" : "liftscheme",
+                "usr" : "c:@C@liftscheme@F@K#"
+            },
+            {
+                "column" : 8,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/lift.h",
+                "kind" : 7,
+                "line" : 669,
+                "name" : "getName",
+                "parent_name" : "liftscheme",
+                "usr" : "c:@C@liftscheme@F@getName#"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/lift.h",
+                "kind" : 7,
+                "line" : 673,
+                "name" : "getScheme(int)",
+                "parent_name" : "liftscheme",
+                "usr" : "c:@C@liftscheme@F@getScheme#I#"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/lift.h",
+                "kind" : 7,
+                "line" : 681,
+                "name" : "disp",
+                "parent_name" : "liftscheme",
+                "usr" : "c:@C@liftscheme@F@disp#"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/lift.h",
+                "kind" : 7,
+                "line" : 712,
+                "name" : "addLift(int &, int)",
+                "parent_name" : "liftscheme",
+                "usr" : "c:@C@liftscheme@F@addLift#&I#I#"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/lift.h",
+                "kind" : 7,
+                "line" : 723,
+                "name" : "addLift(int &, int)",
+                "parent_name" : "liftscheme",
+                "usr" : "c:@C@liftscheme@F@addLift#&I#I#"
+            }
+        ],
+        "file" : "/Users/danielfurth/GitHub/fisseq/src/lift.h",
+        "file_last_write" : 1348146139
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 13,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/liftfilter.h",
+                "kind" : 6,
+                "line" : 38,
+                "name" : "biorfilt(string, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@biorfilt#$@N@std@N@__1@C@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@C@allocator>#C#I#"
+            },
+            {
+                "column" : 13,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/liftfilter.h",
+                "kind" : 6,
+                "line" : 126,
+                "name" : "orthfilt(string, int, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@orthfilt#$@N@std@N@__1@C@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@C@allocator>#C#I#I#"
+            },
+            {
+                "column" : 13,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/liftfilter.h",
+                "kind" : 6,
+                "line" : 148,
+                "name" : "lpoly(string, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@lpoly#$@N@std@N@__1@C@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@C@allocator>#C#I#"
+            },
+            {
+                "column" : 13,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/liftfilter.h",
+                "kind" : 6,
+                "line" : 164,
+                "name" : "factor(string &)",
+                "parent_name" : "",
+                "usr" : "c:@F@factor#&$@N@std@N@__1@C@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@C@allocator>#C#"
+            }
+        ],
+        "file" : "/Users/danielfurth/GitHub/fisseq/src/liftfilter.h",
+        "file_last_write" : 1442887228
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 8,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/lwave.h",
+                "kind" : 2,
+                "line" : 41,
+                "name" : "IsInt<T>",
+                "parent_name" : "",
+                "usr" : "c:@ST>1#T@IsInt"
+            },
+            {
+                "column" : 8,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/lwave.h",
+                "kind" : 3,
+                "line" : 47,
+                "name" : "IsInt<int>",
+                "parent_name" : "",
+                "usr" : "c:@S@IsInt>#I"
+            },
+            {
+                "column" : 8,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/lwave.h",
+                "kind" : 3,
+                "line" : 53,
+                "name" : "IsInt<short>",
+                "parent_name" : "",
+                "usr" : "c:@S@IsInt>#S"
+            },
+            {
+                "column" : 8,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/lwave.h",
+                "kind" : 3,
+                "line" : 59,
+                "name" : "IsInt<long>",
+                "parent_name" : "",
+                "usr" : "c:@S@IsInt>#L"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/lwave.h",
+                "kind" : 2,
+                "line" : 65,
+                "name" : "lwt<T>",
+                "parent_name" : "",
+                "usr" : "c:@CT>1#T@lwt"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/lwave.h",
+                "kind" : 7,
+                "line" : 195,
+                "name" : "getCoeff(vector<T> &, vector<T> &)",
+                "parent_name" : "lwt<T>",
+                "usr" : "c:@CT>1#T@lwt@F@getCoeff#&>@N@std@N@__1@CT>2#T#T@vector2t0.0>@N@std@N@__1@CT>1#T@allocator1S2_#S0_#"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/lwave.h",
+                "kind" : 7,
+                "line" : 200,
+                "name" : "getDetailVec(vector<int> &)",
+                "parent_name" : "lwt<T>",
+                "usr" : "c:@CT>1#T@lwt@F@getDetailVec#&$@N@std@N@__1@C@vector>#I#$@N@std@N@__1@C@allocator>#I#"
+            },
+            {
+                "column" : 5,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/lwave.h",
+                "kind" : 7,
+                "line" : 204,
+                "name" : "getLevels",
+                "parent_name" : "lwt<T>",
+                "usr" : "c:@CT>1#T@lwt@F@getLevels#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/lwave.h",
+                "kind" : 2,
+                "line" : 216,
+                "name" : "ilwt<T>",
+                "parent_name" : "",
+                "usr" : "c:@CT>1#T@ilwt"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/lwave.h",
+                "kind" : 7,
+                "line" : 329,
+                "name" : "getSignal(vector<T> &)",
+                "parent_name" : "ilwt<T>",
+                "usr" : "c:@CT>1#T@ilwt@F@getSignal#&>@N@std@N@__1@CT>2#T#T@vector2t0.0>@N@std@N@__1@CT>1#T@allocator1S2_#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/lwave.h",
+                "kind" : 2,
+                "line" : 339,
+                "name" : "lwt2<T>",
+                "parent_name" : "",
+                "usr" : "c:@CT>1#T@lwt2"
+            },
+            {
+                "column" : 10,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/lwave.h",
+                "kind" : 7,
+                "line" : 484,
+                "name" : "upsamp(vector<double> &, int, vector<double> &)",
+                "parent_name" : "lwt2<T>",
+                "usr" : "c:@CT>1#T@lwt2@F@upsamp#&$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#I#S0_#"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/lwave.h",
+                "kind" : 7,
+                "line" : 505,
+                "name" : "getCoef(vector<T> &, vector<T> &, vector<T> &, vector<T> &)",
+                "parent_name" : "lwt2<T>",
+                "usr" : "c:@CT>1#T@lwt2@F@getCoef#&>@N@std@N@__1@CT>2#T#T@vector2t0.0>@N@std@N@__1@CT>1#T@allocator1S2_#S0_#S0_#S0_#"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/lwave.h",
+                "kind" : 7,
+                "line" : 513,
+                "name" : "getDim(vector<int> &)",
+                "parent_name" : "lwt2<T>",
+                "usr" : "c:@CT>1#T@lwt2@F@getDim#&$@N@std@N@__1@C@vector>#I#$@N@std@N@__1@C@allocator>#I#"
+            },
+            {
+                "column" : 5,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/lwave.h",
+                "kind" : 7,
+                "line" : 518,
+                "name" : "getLevels",
+                "parent_name" : "lwt2<T>",
+                "usr" : "c:@CT>1#T@lwt2@F@getLevels#"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/lwave.h",
+                "kind" : 7,
+                "line" : 522,
+                "name" : "getDetails(string, int, vector<T> &, vector<int> &)",
+                "parent_name" : "lwt2<T>",
+                "usr" : "c:@CT>1#T@lwt2@F@getDetails#$@N@std@N@__1@C@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@C@allocator>#C#I#&>@N@std@N@__1@CT>2#T#T@vector2t0.0>@N@std@N@__1@CT>1#T@allocator1S5_#&$@N@std@N@__1@C@vector>#I#$@N@std@N@__1@C@allocator>#I#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/lwave.h",
+                "kind" : 2,
+                "line" : 580,
+                "name" : "ilwt2<T>",
+                "parent_name" : "",
+                "usr" : "c:@CT>1#T@ilwt2"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/lwave.h",
+                "kind" : 7,
+                "line" : 801,
+                "name" : "getDetails(lwt2<T> &, string, int, vector<T> &, vector<int>)",
+                "parent_name" : "ilwt2<T>",
+                "usr" : "c:@CT>1#T@ilwt2@F@getDetails#&>@CT>1#T@lwt21t0.0#$@N@std@N@__1@C@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@C@allocator>#C#I#&>@N@std@N@__1@CT>2#T#T@vector2S2_>@N@std@N@__1@CT>1#T@allocator1S2_#$@N@std@N@__1@C@vector>#I#$@N@std@N@__1@C@allocator>#I#"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/lwave.h",
+                "kind" : 7,
+                "line" : 851,
+                "name" : "getSignal(vector<T> &)",
+                "parent_name" : "ilwt2<T>",
+                "usr" : "c:@CT>1#T@ilwt2@F@getSignal#&>@N@std@N@__1@CT>2#T#T@vector2t0.0>@N@std@N@__1@CT>1#T@allocator1S2_#"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/lwave.h",
+                "kind" : 7,
+                "line" : 855,
+                "name" : "getDim(vector<int> &)",
+                "parent_name" : "ilwt2<T>",
+                "usr" : "c:@CT>1#T@ilwt2@F@getDim#&$@N@std@N@__1@C@vector>#I#$@N@std@N@__1@C@allocator>#I#"
+            }
+        ],
+        "file" : "/Users/danielfurth/GitHub/fisseq/src/lwave.h",
+        "file_last_write" : 1442948127
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 7,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/multiresolutiondecomposition.cpp",
+                "kind" : 6,
+                "line" : 35,
+                "name" : "maxv(vector<vector<double> > &, double &)",
+                "parent_name" : "",
+                "usr" : "c:@F@maxv#&$@N@std@N@__1@C@vector>#$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#$@N@std@N@__1@C@allocator>#S2_#&d#"
+            },
+            {
+                "column" : 5,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/multiresolutiondecomposition.cpp",
+                "kind" : 6,
+                "line" : 52,
+                "name" : "nearest(const std::vector<int> &, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@nearest#&1$@N@std@N@__1@C@vector>#I#$@N@std@N@__1@C@allocator>#I#I#"
+            }
+        ],
+        "file" : "/Users/danielfurth/GitHub/fisseq/src/multiresolutiondecomposition.cpp",
+        "file_last_write" : 1476129050
+    },
+    {
+        "definitions" : [
+        ],
+        "file" : "/Users/danielfurth/GitHub/fisseq/src/readICS.cpp",
+        "file_last_write" : 1476131457
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 7,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 42,
+                "name" : "per_ext2d(vector<vector<double> > &, vector<vector<double> > &, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@per_ext2d#&$@N@std@N@__1@C@vector>#$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#$@N@std@N@__1@C@allocator>#S2_#S0_#I#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 82,
+                "name" : "swt_2d(vector<vector<double> > &, int, string, vector<double> &)",
+                "parent_name" : "",
+                "usr" : "c:@F@swt_2d#&$@N@std@N@__1@C@vector>#$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#$@N@std@N@__1@C@allocator>#S2_#I#$@N@std@N@__1@C@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@C@allocator>#C#&S2_#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 279,
+                "name" : "per_ext(vector<double> &, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@per_ext#&$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#I#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 301,
+                "name" : "iswt(vector<double> &, int, string, vector<double> &)",
+                "parent_name" : "",
+                "usr" : "c:@F@iswt#&$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#I#$@N@std@N@__1@C@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@C@allocator>#C#S0_#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 423,
+                "name" : "swt(vector<double> &, int, string, vector<double> &, int &)",
+                "parent_name" : "",
+                "usr" : "c:@F@swt#&$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#I#$@N@std@N@__1@C@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@C@allocator>#C#S0_#&I#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 475,
+                "name" : "dwt_output_dim_sym(vector<int> &, vector<int> &, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@dwt_output_dim_sym#&$@N@std@N@__1@C@vector>#I#$@N@std@N@__1@C@allocator>#I#S0_#I#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 492,
+                "name" : "dwt_output_dim2(vector<int> &, vector<int> &, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@dwt_output_dim2#&$@N@std@N@__1@C@vector>#I#$@N@std@N@__1@C@allocator>#I#S0_#I#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 511,
+                "name" : "dispDWT(vector<double> &, vector<vector<double> > &, vector<int> &, vector<int> &, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@dispDWT#&$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#&$@N@std@N@__1@C@vector>#S1_#$@N@std@N@__1@C@allocator>#S1_#&$@N@std@N@__1@C@vector>#I#$@N@std@N@__1@C@allocator>#I#S6_#I#"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 641,
+                "name" : "symm_ext2d(vector<vector<double> > &, vector<vector<double> > &, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@symm_ext2d#&$@N@std@N@__1@C@vector>#$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#$@N@std@N@__1@C@allocator>#S2_#S0_#I#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 672,
+                "name" : "circshift2d(vector<vector<double> > &, int, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@circshift2d#&$@N@std@N@__1@C@vector>#$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#$@N@std@N@__1@C@allocator>#S2_#I#I#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 703,
+                "name" : "idwt_2d_sym(vector<double> &, vector<double> &, string, vector<vector<double> > &, vector<int> &)",
+                "parent_name" : "",
+                "usr" : "c:@F@idwt_2d_sym#&$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#S0_#$@N@std@N@__1@C@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@C@allocator>#C#&$@N@std@N@__1@C@vector>#S1_#$@N@std@N@__1@C@allocator>#S1_#&$@N@std@N@__1@C@vector>#I#$@N@std@N@__1@C@allocator>#I#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 853,
+                "name" : "dwt2_sym(string, vector<vector<double> > &, vector<vector<double> > &, vector<vector<double> > &, vector<vector<double> > &, vector<vector<double> > &)",
+                "parent_name" : "",
+                "usr" : "c:@F@dwt2_sym#$@N@std@N@__1@C@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@C@allocator>#C#&$@N@std@N@__1@C@vector>#$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#$@N@std@N@__1@C@allocator>#S5_#S3_#S3_#S3_#S3_#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 927,
+                "name" : "dwt_2d_sym(vector<vector<double> > &, int, string, vector<double> &, vector<double> &, vector<int> &)",
+                "parent_name" : "",
+                "usr" : "c:@F@dwt_2d_sym#&$@N@std@N@__1@C@vector>#$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#$@N@std@N@__1@C@allocator>#S2_#I#$@N@std@N@__1@C@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@C@allocator>#C#&S2_#S8_#&$@N@std@N@__1@C@vector>#I#$@N@std@N@__1@C@allocator>#I#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 1031,
+                "name" : "idwt1_sym(string, vector<double> &, vector<double> &, vector<double> &)",
+                "parent_name" : "",
+                "usr" : "c:@F@idwt1_sym#$@N@std@N@__1@C@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@C@allocator>#C#&$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#S3_#S3_#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 1050,
+                "name" : "idwt1_sym_m(string, vector<double> &, vector<double> &, vector<double> &)",
+                "parent_name" : "",
+                "usr" : "c:@F@idwt1_sym_m#$@N@std@N@__1@C@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@C@allocator>#C#&$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#S3_#S3_#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 1086,
+                "name" : "symm_ext(vector<double> &, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@symm_ext#&$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#I#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 1099,
+                "name" : "idwt_sym(vector<double> &, vector<double> &, string, vector<double> &, vector<int> &)",
+                "parent_name" : "",
+                "usr" : "c:@F@idwt_sym#&$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#S0_#$@N@std@N@__1@C@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@C@allocator>#C#S0_#&$@N@std@N@__1@C@vector>#I#$@N@std@N@__1@C@allocator>#I#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 1176,
+                "name" : "dwt1_sym(string, vector<double> &, vector<double> &, vector<double> &)",
+                "parent_name" : "",
+                "usr" : "c:@F@dwt1_sym#$@N@std@N@__1@C@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@C@allocator>#C#&$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#S3_#S3_#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 1210,
+                "name" : "dwt1_sym_m(string, vector<double> &, vector<double> &, vector<double> &)",
+                "parent_name" : "",
+                "usr" : "c:@F@dwt1_sym_m#$@N@std@N@__1@C@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@C@allocator>#C#&$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#S3_#S3_#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 1244,
+                "name" : "dwt_sym(vector<double> &, int, string, vector<double> &, vector<double> &, vector<int> &)",
+                "parent_name" : "",
+                "usr" : "c:@F@dwt_sym#&$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#I#$@N@std@N@__1@C@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@C@allocator>#C#S0_#S0_#&$@N@std@N@__1@C@vector>#I#$@N@std@N@__1@C@allocator>#I#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 1293,
+                "name" : "freq(vector<double> &, vector<double> &)",
+                "parent_name" : "",
+                "usr" : "c:@F@freq#&$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#S0_#"
+            },
+            {
+                "column" : 8,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 1311,
+                "name" : "convfft(vector<double> &, vector<double> &, vector<double> &)",
+                "parent_name" : "",
+                "usr" : "c:@F@convfft#&$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#S0_#S0_#"
+            },
+            {
+                "column" : 8,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 1385,
+                "name" : "convfftm(vector<double> &, vector<double> &, vector<double> &)",
+                "parent_name" : "",
+                "usr" : "c:@F@convfftm#&$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#S0_#S0_#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 1465,
+                "name" : "fft(vector<complex<double> > &, int, unsigned int)",
+                "parent_name" : "",
+                "usr" : "c:@F@fft#&$@N@std@N@__1@C@vector>#$@N@std@N@__1@C@complex>#d#$@N@std@N@__1@C@allocator>#S2_#I#i#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 1547,
+                "name" : "bitreverse(vector<complex<double> > &)",
+                "parent_name" : "",
+                "usr" : "c:@F@bitreverse#&$@N@std@N@__1@C@vector>#$@N@std@N@__1@C@complex>#d#$@N@std@N@__1@C@allocator>#S2_#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 1577,
+                "name" : "dwt(vector<double> &, int, string, vector<double> &, vector<double> &, vector<int> &)",
+                "parent_name" : "",
+                "usr" : "c:@F@dwt#&$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#I#$@N@std@N@__1@C@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@C@allocator>#C#S0_#S0_#&$@N@std@N@__1@C@vector>#I#$@N@std@N@__1@C@allocator>#I#"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 1637,
+                "name" : "circshift(vector<double> &, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@circshift#&$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#I#"
+            },
+            {
+                "column" : 8,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 1653,
+                "name" : "convol(vector<double> &, vector<double> &, vector<double> &)",
+                "parent_name" : "",
+                "usr" : "c:@F@convol#&$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#S0_#S0_#"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 1688,
+                "name" : "downsamp(vector<double> &, int, vector<double> &)",
+                "parent_name" : "",
+                "usr" : "c:@F@downsamp#&$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#I#S0_#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 1701,
+                "name" : "dwt1(string, vector<double> &, vector<double> &, vector<double> &)",
+                "parent_name" : "",
+                "usr" : "c:@F@dwt1#$@N@std@N@__1@C@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@C@allocator>#C#&$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#S3_#S3_#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 1758,
+                "name" : "dwt1_m(string, vector<double> &, vector<double> &, vector<double> &)",
+                "parent_name" : "",
+                "usr" : "c:@F@dwt1_m#$@N@std@N@__1@C@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@C@allocator>#C#&$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#S3_#S3_#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 1816,
+                "name" : "dyadic_zpad_1d(vector<double> &)",
+                "parent_name" : "",
+                "usr" : "c:@F@dyadic_zpad_1d#&$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 1833,
+                "name" : "idwt(vector<double> &, vector<double> &, string, vector<double> &, vector<int> &)",
+                "parent_name" : "",
+                "usr" : "c:@F@idwt#&$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#S0_#$@N@std@N@__1@C@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@C@allocator>#C#S0_#&$@N@std@N@__1@C@vector>#I#$@N@std@N@__1@C@allocator>#I#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 1893,
+                "name" : "idwt1_m(string, vector<double> &, vector<double> &, vector<double> &)",
+                "parent_name" : "",
+                "usr" : "c:@F@idwt1_m#$@N@std@N@__1@C@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@C@allocator>#C#&$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#S3_#S3_#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 1945,
+                "name" : "idwt1(string, vector<double> &, vector<double> &, vector<double> &)",
+                "parent_name" : "",
+                "usr" : "c:@F@idwt1#$@N@std@N@__1@C@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@C@allocator>#C#&$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#S3_#S3_#"
+            },
+            {
+                "column" : 5,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 1997,
+                "name" : "sign(int)",
+                "parent_name" : "",
+                "usr" : "c:@F@sign#I#"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 2004,
+                "name" : "upsamp(vector<double> &, int, vector<double> &)",
+                "parent_name" : "",
+                "usr" : "c:@F@upsamp#&$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#I#S0_#"
+            },
+            {
+                "column" : 8,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 2025,
+                "name" : "op_sum(double, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@op_sum#d#d#"
+            },
+            {
+                "column" : 5,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 2029,
+                "name" : "vecsum(vector<double> &, vector<double> &, vector<double> &)",
+                "parent_name" : "",
+                "usr" : "c:@F@vecsum#&$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#S0_#S0_#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 2038,
+                "name" : "getcoeff2d(vector<vector<double> > &, vector<vector<double> > &, vector<vector<double> > &, vector<vector<double> > &, vector<double> &, int &)",
+                "parent_name" : "",
+                "usr" : "c:@F@getcoeff2d#&$@N@std@N@__1@C@vector>#$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#$@N@std@N@__1@C@allocator>#S2_#S0_#S0_#S0_#&S2_#&I#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 2072,
+                "name" : "zero_remove(vector<vector<double> > &, vector<vector<double> > &)",
+                "parent_name" : "",
+                "usr" : "c:@F@zero_remove#&$@N@std@N@__1@C@vector>#$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#$@N@std@N@__1@C@allocator>#S2_#S0_#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 2098,
+                "name" : "dwt_output_dim(vector<vector<double> > &, int &, int &)",
+                "parent_name" : "",
+                "usr" : "c:@F@dwt_output_dim#&$@N@std@N@__1@C@vector>#$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#$@N@std@N@__1@C@allocator>#S2_#&I#S5_#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 2118,
+                "name" : "dyadic_zpad_2d(vector<vector<double> > &, vector<vector<double> > &)",
+                "parent_name" : "",
+                "usr" : "c:@F@dyadic_zpad_2d#&$@N@std@N@__1@C@vector>#$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#$@N@std@N@__1@C@allocator>#S2_#S0_#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 2161,
+                "name" : "idwt_2d(vector<double> &, vector<double> &, string, vector<vector<double> > &, vector<int> &)",
+                "parent_name" : "",
+                "usr" : "c:@F@idwt_2d#&$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#S0_#$@N@std@N@__1@C@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@C@allocator>#C#&$@N@std@N@__1@C@vector>#S1_#$@N@std@N@__1@C@allocator>#S1_#&$@N@std@N@__1@C@vector>#I#$@N@std@N@__1@C@allocator>#I#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 2310,
+                "name" : "dwt_2d(vector<vector<double> > &, int, string, vector<double> &, vector<double> &, vector<int> &)",
+                "parent_name" : "",
+                "usr" : "c:@F@dwt_2d#&$@N@std@N@__1@C@vector>#$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#$@N@std@N@__1@C@allocator>#S2_#I#$@N@std@N@__1@C@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@C@allocator>#C#&S2_#S8_#&$@N@std@N@__1@C@vector>#I#$@N@std@N@__1@C@allocator>#I#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 2407,
+                "name" : "branch_lp_hp_up(string, vector<double> &, vector<double> &, vector<double> &)",
+                "parent_name" : "",
+                "usr" : "c:@F@branch_lp_hp_up#$@N@std@N@__1@C@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@C@allocator>#C#&$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#S3_#S3_#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 2447,
+                "name" : "branch_hp_dn(string, vector<double> &, vector<double> &)",
+                "parent_name" : "",
+                "usr" : "c:@F@branch_hp_dn#$@N@std@N@__1@C@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@C@allocator>#C#&$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#S3_#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 2489,
+                "name" : "branch_lp_dn(string, vector<double> &, vector<double> &)",
+                "parent_name" : "",
+                "usr" : "c:@F@branch_lp_dn#$@N@std@N@__1@C@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@C@allocator>#C#&$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#S3_#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 2532,
+                "name" : "idwt2(string, vector<vector<double> > &, vector<vector<double> > &, vector<vector<double> > &, vector<vector<double> > &, vector<vector<double> > &)",
+                "parent_name" : "",
+                "usr" : "c:@F@idwt2#$@N@std@N@__1@C@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@C@allocator>#C#&$@N@std@N@__1@C@vector>#$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#$@N@std@N@__1@C@allocator>#S5_#S3_#S3_#S3_#S3_#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 2606,
+                "name" : "dwt2(string, vector<vector<double> > &, vector<vector<double> > &, vector<vector<double> > &, vector<vector<double> > &, vector<vector<double> > &)",
+                "parent_name" : "",
+                "usr" : "c:@F@dwt2#$@N@std@N@__1@C@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@C@allocator>#C#&$@N@std@N@__1@C@vector>#$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#$@N@std@N@__1@C@allocator>#S5_#S3_#S3_#S3_#S3_#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 2680,
+                "name" : "downsamp2(vector<vector<double> > &, vector<vector<double> > &, int, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@downsamp2#&$@N@std@N@__1@C@vector>#$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#$@N@std@N@__1@C@allocator>#S2_#S0_#I#I#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 2696,
+                "name" : "upsamp2(vector<vector<double> > &, vector<vector<double> > &, int, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@upsamp2#&$@N@std@N@__1@C@vector>#$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#$@N@std@N@__1@C@allocator>#S2_#S0_#I#I#"
+            },
+            {
+                "column" : 5,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+                "kind" : 6,
+                "line" : 2715,
+                "name" : "filtcoef(string, vector<double> &, vector<double> &, vector<double> &, vector<double> &)",
+                "parent_name" : "",
+                "usr" : "c:@F@filtcoef#$@N@std@N@__1@C@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@C@allocator>#C#&$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#S3_#S3_#S3_#"
+            }
+        ],
+        "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.cpp",
+        "file_last_write" : 1436146423
+    },
+    {
+        "definitions" : [
+        ],
+        "file" : "/Users/danielfurth/GitHub/fisseq/src/wavelet2d.h",
+        "file_last_write" : 1313663488
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/webfiles.cpp",
+                "kind" : 6,
+                "line" : 16,
+                "name" : "copySrcTile(const cv::Mat &, cv::Mat &, cv::Rect &)",
+                "parent_name" : "",
+                "usr" : "c:@F@copySrcTile#&1$@N@cv@C@Mat#&S1_#&$@N@cv@C@Rect_>#I#"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/webfiles.cpp",
+                "kind" : 6,
+                "line" : 83,
+                "name" : "get_quantile(cv::Mat &, size_t, size_t, int &, int &)",
+                "parent_name" : "",
+                "usr" : "c:@F@get_quantile#&$@N@cv@C@Mat#l#l#&I#S2_#"
+            }
+        ],
+        "file" : "/Users/danielfurth/GitHub/fisseq/src/webfiles.cpp",
+        "file_last_write" : 1468506188
+    }
+]

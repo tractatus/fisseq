@@ -1,0 +1,5 @@
+PKG_LIBS = `pkg-config --libs opencv fftw3` -llapack
+PKG_LIBS += -L"/usr/local/lib" -lics
+PKG_CPPFLAGS = `pkg-config --cflags opencv fftw3`
+PKG_CPPFLAGS += -I"/usr/local/include"
+PKG_CXXFLAGS = `Rscript -e 'Rcpp:::CxxFlags()'`

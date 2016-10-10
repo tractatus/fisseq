@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "PKG_LIBS = `pkg-config --libs opencv fftw3` -llapack\nPKG_LIBS += -L\"/usr/local/lib\" -lics\nPKG_CPPFLAGS = `pkg-config --cflags opencv fftw3`\nPKG_CPPFLAGS += -I\"/usr/local/include\"\nPKG_CXXFLAGS = `Rscript -e 'Rcpp:::CxxFlags()'`\n",
+    "created" : 1476129850195.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1236367020",
+    "id" : "C949BF61",
+    "lastKnownWriteTime" : 1476130681,
+    "last_content_update" : 1476130681792,
+    "path" : "~/GitHub/fisseq/src/Makevars",
+    "project_path" : "src/Makevars",
+    "properties" : {
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "makefile"
+}
