@@ -1,3 +1,4 @@
+%2FLibrary%2FFrameworks%2FR.framework%2FVersions%2F3.3%2FResources%2Flibrary%2FRcpp%2Finclude%2FRcpp%2Ftraits%2Ftraits.h="FE83BA4E"
 ~%2FGitHub%2Ffisseq%2FNAMESPACE="E16983C5"
 ~%2FGitHub%2Ffisseq%2FR%2Fhello.R="4C48A87F"
 ~%2FGitHub%2Ffisseq%2Fsrc%2FCThinPlateSpline.cpp="76469006"
@@ -5,5 +6,6 @@
 ~%2FGitHub%2Ffisseq%2Fsrc%2Falg.h="195E288"
 ~%2FGitHub%2Ffisseq%2Fsrc%2Fflatfieldcorrection.cpp="45623521"
 ~%2FGitHub%2Ffisseq%2Fsrc%2Flibics.h="6B096121"
+~%2FGitHub%2Ffisseq%2Fsrc%2Fmultiresolutiondecomposition.cpp="84A3F089"
 ~%2FGitHub%2Ffisseq%2Fsrc%2FreadICS.cpp="B1F14374"
 ~%2FGitHub%2Ffisseq%2Fsrc%2Fwavelet2d.cpp="F9F5F886"

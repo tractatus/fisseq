@@ -1,1 +1,5 @@
-exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, evalCpp)
+useDynLib(fisseq)
+
+
+export(read.ics)

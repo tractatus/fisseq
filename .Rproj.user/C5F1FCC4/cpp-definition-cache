@@ -224,6 +224,594 @@
     {
         "definitions" : [
             {
+                "column" : 21,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_conf.h",
+                "kind" : 8,
+                "line" : 169,
+                "name" : "ics_t_sint8",
+                "parent_name" : "",
+                "usr" : "c:libics_conf.h@T@ics_t_sint8"
+            },
+            {
+                "column" : 23,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_conf.h",
+                "kind" : 8,
+                "line" : 179,
+                "name" : "ics_t_uint8",
+                "parent_name" : "",
+                "usr" : "c:libics_conf.h@T@ics_t_uint8"
+            },
+            {
+                "column" : 22,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_conf.h",
+                "kind" : 8,
+                "line" : 191,
+                "name" : "ics_t_sint16",
+                "parent_name" : "",
+                "usr" : "c:libics_conf.h@T@ics_t_sint16"
+            },
+            {
+                "column" : 24,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_conf.h",
+                "kind" : 8,
+                "line" : 201,
+                "name" : "ics_t_uint16",
+                "parent_name" : "",
+                "usr" : "c:libics_conf.h@T@ics_t_uint16"
+            },
+            {
+                "column" : 20,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_conf.h",
+                "kind" : 8,
+                "line" : 213,
+                "name" : "ics_t_sint32",
+                "parent_name" : "",
+                "usr" : "c:libics_conf.h@T@ics_t_sint32"
+            },
+            {
+                "column" : 22,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_conf.h",
+                "kind" : 8,
+                "line" : 223,
+                "name" : "ics_t_uint32",
+                "parent_name" : "",
+                "usr" : "c:libics_conf.h@T@ics_t_uint32"
+            },
+            {
+                "column" : 15,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_conf.h",
+                "kind" : 8,
+                "line" : 229,
+                "name" : "ics_t_real32",
+                "parent_name" : "",
+                "usr" : "c:libics_conf.h@T@ics_t_real32"
+            },
+            {
+                "column" : 16,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_conf.h",
+                "kind" : 8,
+                "line" : 237,
+                "name" : "ics_t_real64",
+                "parent_name" : "",
+                "usr" : "c:libics_conf.h@T@ics_t_real64"
+            }
+        ],
+        "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_conf.h",
+        "file_last_write" : 1476108986
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 100,
+                "name" : "ICSTOK_SOURCE",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_SOURCE"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 101,
+                "name" : "ICSTOK_LAYOUT",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_LAYOUT"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 102,
+                "name" : "ICSTOK_REPRES",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_REPRES"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 103,
+                "name" : "ICSTOK_PARAM",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_PARAM"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 104,
+                "name" : "ICSTOK_HISTORY",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_HISTORY"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 105,
+                "name" : "ICSTOK_SENSOR",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_SENSOR"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 106,
+                "name" : "ICSTOK_END",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_END"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 107,
+                "name" : "ICSTOK_LASTMAIN",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_LASTMAIN"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 110,
+                "name" : "ICSTOK_FIRSTSUB",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_FIRSTSUB"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 111,
+                "name" : "ICSTOK_FILE",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_FILE"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 112,
+                "name" : "ICSTOK_OFFSET",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_OFFSET"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 113,
+                "name" : "ICSTOK_PARAMS",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_PARAMS"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 114,
+                "name" : "ICSTOK_ORDER",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_ORDER"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 115,
+                "name" : "ICSTOK_SIZES",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_SIZES"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 116,
+                "name" : "ICSTOK_COORD",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_COORD"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 117,
+                "name" : "ICSTOK_SIGBIT",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_SIGBIT"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 118,
+                "name" : "ICSTOK_FORMAT",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_FORMAT"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 119,
+                "name" : "ICSTOK_SIGN",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_SIGN"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 120,
+                "name" : "ICSTOK_COMPR",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_COMPR"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 121,
+                "name" : "ICSTOK_BYTEO",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_BYTEO"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 122,
+                "name" : "ICSTOK_ORIGIN",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_ORIGIN"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 123,
+                "name" : "ICSTOK_SCALE",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_SCALE"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 124,
+                "name" : "ICSTOK_UNITS",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_UNITS"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 125,
+                "name" : "ICSTOK_LABELS",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_LABELS"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 126,
+                "name" : "ICSTOK_SCILT",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_SCILT"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 127,
+                "name" : "ICSTOK_TYPE",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_TYPE"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 128,
+                "name" : "ICSTOK_MODEL",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_MODEL"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 129,
+                "name" : "ICSTOK_SPARAMS",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_SPARAMS"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 130,
+                "name" : "ICSTOK_LASTSUB",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_LASTSUB"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 133,
+                "name" : "ICSTOK_FIRSTSUBSUB",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_FIRSTSUBSUB"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 134,
+                "name" : "ICSTOK_CHANS",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_CHANS"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 135,
+                "name" : "ICSTOK_PINHRAD",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_PINHRAD"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 136,
+                "name" : "ICSTOK_LAMBDEX",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_LAMBDEX"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 137,
+                "name" : "ICSTOK_LAMBDEM",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_LAMBDEM"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 138,
+                "name" : "ICSTOK_PHOTCNT",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_PHOTCNT"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 139,
+                "name" : "ICSTOK_REFRIME",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_REFRIME"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 140,
+                "name" : "ICSTOK_NUMAPER",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_NUMAPER"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 141,
+                "name" : "ICSTOK_REFRILM",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_REFRILM"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 142,
+                "name" : "ICSTOK_PINHSPA",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_PINHSPA"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 143,
+                "name" : "ICSTOK_LASTSUBSUB",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_LASTSUBSUB"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 146,
+                "name" : "ICSTOK_FIRSTVALUE",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_FIRSTVALUE"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 147,
+                "name" : "ICSTOK_COMPR_UNCOMPRESSED",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_COMPR_UNCOMPRESSED"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 148,
+                "name" : "ICSTOK_COMPR_COMPRESS",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_COMPR_COMPRESS"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 149,
+                "name" : "ICSTOK_COMPR_GZIP",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_COMPR_GZIP"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 150,
+                "name" : "ICSTOK_FORMAT_INTEGER",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_FORMAT_INTEGER"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 151,
+                "name" : "ICSTOK_FORMAT_REAL",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_FORMAT_REAL"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 152,
+                "name" : "ICSTOK_FORMAT_COMPLEX",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_FORMAT_COMPLEX"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 153,
+                "name" : "ICSTOK_SIGN_SIGNED",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_SIGN_SIGNED"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 154,
+                "name" : "ICSTOK_SIGN_UNSIGNED",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_SIGN_UNSIGNED"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 155,
+                "name" : "ICSTOK_LASTVALUE",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_LASTVALUE"
+            },
+            {
+                "column" : 4,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 5,
+                "line" : 157,
+                "name" : "ICSTOK_NONE",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token@ICSTOK_NONE"
+            },
+            {
+                "column" : 3,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 8,
+                "line" : 158,
+                "name" : "Ics_Token",
+                "parent_name" : "",
+                "usr" : "c:libics_intern.h@T@Ics_Token"
+            },
+            {
+                "column" : 3,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 8,
+                "line" : 176,
+                "name" : "Ics_Symbol",
+                "parent_name" : "",
+                "usr" : "c:libics_intern.h@T@Ics_Symbol"
+            },
+            {
+                "column" : 3,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 8,
+                "line" : 181,
+                "name" : "Ics_SymbolList",
+                "parent_name" : "",
+                "usr" : "c:libics_intern.h@T@Ics_SymbolList"
+            },
+            {
+                "column" : 3,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 8,
+                "line" : 199,
+                "name" : "Ics_History",
+                "parent_name" : "",
+                "usr" : "c:libics_intern.h@T@Ics_History"
+            },
+            {
+                "column" : 3,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 8,
+                "line" : 210,
+                "name" : "Ics_BlockRead",
+                "parent_name" : "",
+                "usr" : "c:libics_intern.h@T@Ics_BlockRead"
+            }
+        ],
+        "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+        "file_last_write" : 1276617496
+    },
+    {
+        "definitions" : [
+            {
                 "column" : 7,
                 "file" : "/Users/danielfurth/GitHub/fisseq/src/lift.h",
                 "kind" : 2,
@@ -553,9 +1141,36 @@
     },
     {
         "definitions" : [
+            {
+                "column" : 13,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/readICS.cpp",
+                "kind" : 8,
+                "line" : 23,
+                "name" : "mwSize",
+                "parent_name" : "",
+                "usr" : "c:readICS.cpp@T@mwSize"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/readICS.cpp",
+                "kind" : 6,
+                "line" : 25,
+                "name" : "copytoarray(void *, void *, size_t, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@copytoarray#*v#S0_#l#I#"
+            },
+            {
+                "column" : 8,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/readICS.cpp",
+                "kind" : 6,
+                "line" : 34,
+                "name" : "getImgTypes(int)",
+                "parent_name" : "",
+                "usr" : "c:@F@getImgTypes#I#"
+            }
         ],
         "file" : "/Users/danielfurth/GitHub/fisseq/src/readICS.cpp",
-        "file_last_write" : 1476131457
+        "file_last_write" : 1476206601
     },
     {
         "definitions" : [
