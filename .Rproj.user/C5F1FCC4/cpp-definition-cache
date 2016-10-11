@@ -297,10 +297,19 @@
             }
         ],
         "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_conf.h",
-        "file_last_write" : 1476108986
+        "file_last_write" : 1476207815
     },
     {
         "definitions" : [
+            {
+                "column" : 9,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 4,
+                "line" : 98,
+                "name" : "",
+                "parent_name" : "",
+                "usr" : "c:@EA@Ics_Token"
+            },
             {
                 "column" : 4,
                 "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
@@ -770,6 +779,15 @@
                 "usr" : "c:libics_intern.h@T@Ics_Token"
             },
             {
+                "column" : 9,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 3,
+                "line" : 173,
+                "name" : "",
+                "parent_name" : "",
+                "usr" : "c:@SA@Ics_Symbol"
+            },
+            {
                 "column" : 3,
                 "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
                 "kind" : 8,
@@ -777,6 +795,15 @@
                 "name" : "Ics_Symbol",
                 "parent_name" : "",
                 "usr" : "c:libics_intern.h@T@Ics_Symbol"
+            },
+            {
+                "column" : 9,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 3,
+                "line" : 178,
+                "name" : "",
+                "parent_name" : "",
+                "usr" : "c:@SA@Ics_SymbolList"
             },
             {
                 "column" : 3,
@@ -788,6 +815,15 @@
                 "usr" : "c:libics_intern.h@T@Ics_SymbolList"
             },
             {
+                "column" : 9,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 3,
+                "line" : 193,
+                "name" : "",
+                "parent_name" : "",
+                "usr" : "c:@SA@Ics_History"
+            },
+            {
                 "column" : 3,
                 "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
                 "kind" : 8,
@@ -795,6 +831,15 @@
                 "name" : "Ics_History",
                 "parent_name" : "",
                 "usr" : "c:libics_intern.h@T@Ics_History"
+            },
+            {
+                "column" : 9,
+                "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
+                "kind" : 3,
+                "line" : 202,
+                "name" : "",
+                "parent_name" : "",
+                "usr" : "c:@SA@Ics_BlockRead"
             },
             {
                 "column" : 3,
@@ -807,7 +852,7 @@
             }
         ],
         "file" : "/Users/danielfurth/GitHub/fisseq/src/libics_intern.h",
-        "file_last_write" : 1276617496
+        "file_last_write" : 1476207815
     },
     {
         "definitions" : [
@@ -1170,7 +1215,7 @@
             }
         ],
         "file" : "/Users/danielfurth/GitHub/fisseq/src/readICS.cpp",
-        "file_last_write" : 1476206601
+        "file_last_write" : 1476207815
     },
     {
         "definitions" : [
