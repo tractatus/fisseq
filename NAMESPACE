@@ -2,4 +2,4 @@ importFrom(Rcpp, evalCpp)
 useDynLib(fisseq)
 
 
-export(read.ics)
+export(normalize.ics)

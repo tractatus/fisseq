@@ -20,15 +20,6 @@ using namespace cv;
 
 using namespace std;
 
-typedef int mwSize;
-
-void copytoarray(void* a, void* b, size_t size, int elements)
-{
-  int bytes = size*elements;
-  for(int i=0; i<bytes;i++){
-    reinterpret_cast<uchar*>(b)[i] = static_cast<const char*>(a)[i];
-  }
-}
 
 // take number image type number (from cv::Mat.type()), get OpenCV's enum string.
 string getImgTypes(int imgTypeInt)
@@ -50,7 +41,7 @@ string getImgTypes(int imgTypeInt)
   return "unknown image type";
 }
 
-RcppExport SEXP readICS(SEXP input) {
+RcppExport SEXP readICS(SEXP input, SEXP verbose) {
   BEGIN_RCPP
   Rcpp::RNGScope __rngScope;
 
@@ -59,9 +50,10 @@ RcppExport SEXP readICS(SEXP input) {
   //convert to C char version
   const char *filenameChar = ff.c_str();
 
+  int VERBOSE = Rcpp::as<int>(verbose);
+
   ICS* ip;
   Ics_DataType dt;
-  mwSize mx_dims[ICS_MAXDIM];
   int ndims;
   size_t dims[ICS_MAXDIM];
   size_t strides[ICS_MAXDIM];
@@ -74,6 +66,8 @@ RcppExport SEXP readICS(SEXP input) {
   size_t tmp;
   char errormessage[2048];
 
+  int barWidth = 70;
+  float progress = 0.0;
 
 ///Users/danielfurth/Downloads/fisseq_test.ics
   retval = IcsOpen (&ip, filenameChar, "r");
@@ -84,9 +78,9 @@ RcppExport SEXP readICS(SEXP input) {
 
   IcsGetLayout (ip, &dt, &ndims, dims);
 
-  Rcpp::Rcout << "Data type: " << getImgTypes(dt) << std::endl;
-  Rcpp::Rcout << "Sensor channels: " << IcsGetSensorChannels(ip) << std::endl;
-
+  if(VERBOSE){
+    Rcpp::Rcout << "Data type: " << getImgTypes(dt) << std::endl;
+  }
 
   bufsize = IcsGetDataSize (ip);
   buf = malloc (bufsize);
@@ -98,7 +92,7 @@ RcppExport SEXP readICS(SEXP input) {
   if (retval != IcsErr_Ok){
     Rcpp::Rcout << "====== ERROR ======" << std::endl;
   }
-    Rcpp::Rcout << "====== Image read ======" << std::endl;
+    if(VERBOSE){ Rcpp::Rcout << "====== Image read ======" << std::endl;}
 
     int p;
     Ics_Format Format;
@@ -125,7 +119,7 @@ RcppExport SEXP readICS(SEXP input) {
    for(int k=0; k< (int)ip->Dim[2].Size;k++){
 
 
-    Rcpp::Rcout <<  "Pixels per image: " << elements << std::endl;//
+
     Mat MatrixName = Mat((int)ip->Dim[1].Size, (int)ip->Dim[0].Size, CV_16U);
 
     for(int i=0; i< (int)ip->Dim[1].Size;i++){
@@ -160,9 +154,24 @@ RcppExport SEXP readICS(SEXP input) {
     rangeR.push_back(range[0]);
     rangeR.push_back(range[1]);
    }
+   if(VERBOSE){Rcpp::Rcout << "  [";
+     int pos = barWidth * progress;
+     for (int w = 0; w < barWidth; ++w) {
+       if (w < pos) Rcpp::Rcout << "=";
+       else if (w == pos) Rcpp::Rcout << ">";
+       else Rcpp::Rcout << " ";
+     }
+     Rcpp::Rcout << "] " << int(progress * 100.0) << "% \r" << std::cout.flush();//cout.flush();
+     R_FlushConsole();
+     R_ProcessEvents();
+     R_CheckUserInterrupt();
+     progress += (float)1/((int)ip->Dim[4].Size-1);
+   }
     }
 
+    if(VERBOSE){
   IcsPrintIcs(ip);
+    }
 
   retval = IcsClose (ip);
   if (retval != IcsErr_Ok){}

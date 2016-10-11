@@ -43,9 +43,9 @@ brew pin opencv3
 Type the following into the terminal.
 
 ```
-curl -L  http://downloads.sourceforge.net/project/romfs/genromfs/0.5.2/genromfs-0.5.2.tar.gz > genromfs.tar.gz
-tar zxf genromfs.tar.gz
-cd genromfs-0.5.2
+curl -L  https://sourceforge.net/projects/libics/files/libics/libics-1.5.2.tar.gz > libics-1.5.2.tar.gz
+tar zxf glibics-1.5.2.tar.gz
+cd libics-1.5.2
 ./configure
 make
 sudo make install
