@@ -18,6 +18,10 @@ Since this is a developing version no static binaries are compiled and hence the
 
 Begin by compiling OpenCV (depending on if you have core libraries for rreading writing TIFF/PNG etc installed or not this could eithe rtake 20 minutes of several hours):
 
+On Linux:
+```
+sudo apt-get install libopencv-dev
+```
 
 Install FFTW3:
 
@@ -31,6 +35,11 @@ cd fftw-3.3.4
 ./configure --enable-shared --enable-threads
 make
 sudo make install
+```
+
+On Linux:
+```
+sudo apt-get install fftw3 fftw3-dev pkg-config
 ```
 
 ### How to update to the latest version:
