@@ -23,7 +23,7 @@ Install FFTW3:
 
 On Mac OSX:
 
-```python
+```
 #install FFTW3
 curl -O http://www.fftw.org/fftw-3.3.4.tar.gz
 tar zxf fftw-3.3.4.tar.gz
