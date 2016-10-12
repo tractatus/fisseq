@@ -86,7 +86,7 @@ devtools::install_github("tractatus/fisseq")
 Open up R and first remove the fisseq package:
 ```R
 #Uninstall anything still remaining of old wholebrain R package.
- remove.packages('wholebrain')
+ remove.packages('fisseq')
 #importantly quit R before reinstalling the wholebrian package.
  quit()
 ```
@@ -100,7 +100,7 @@ if (!require(devtools)) { install.packages("devtools") }
 #intall wholebrain from Github. 
 #devtools:: calls the command install_github directly from devtools.
 # "::" calls functions directly without loading entire library. 
- devtools::install_github("tractatus/wholebrain")
+ devtools::install_github("tractatus/fisseq")
  library(wholebrain)
 ```
 
