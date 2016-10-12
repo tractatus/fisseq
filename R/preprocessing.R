@@ -1,4 +1,4 @@
-normalize.ics<-function(file=system.file('06_N1_2_2016_10_10_10_10_10.ics', package='fisseq'), plot=TRUE, verbose=TRUE){
+hist.match.ics<-function(file=system.file('06_N1_2_2016_10_10_10_10_10.ics', package='fisseq'), plot=TRUE, verbose=TRUE){
   output<-.Call("readICS", file, as.integer(verbose))
 
   images<-length(output$histo)/2047
