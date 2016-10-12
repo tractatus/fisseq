@@ -76,7 +76,6 @@ Open up R and type the following:
 if (!require(devtools)) {
   install.packages("devtools")
 }
-install.packages('grImport')
 devtools::install_github("tractatus/fisseq")
 ```
 
