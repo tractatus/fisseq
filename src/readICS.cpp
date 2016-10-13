@@ -71,9 +71,15 @@ RcppExport SEXP readICS(SEXP input, SEXP verbose) {
 
 ///Users/danielfurth/Downloads/fisseq_test.ics
   retval = IcsOpen (&ip, filenameChar, "r");
-  if (retval != IcsErr_Ok)
-    /* Flag error condition */ ;
+  if (retval != IcsErr_Ok){
+    Rcpp::Rcout << "ERROR: " << "could not open file. Check format." << std::endl;
+    IcsGetLayout (ip, &dt, &ndims, dims);
 
+    if(VERBOSE){
+      Rcpp::Rcout << "Data type: " << getImgTypes(dt) << std::endl;
+    }
+    return R_NilValue;
+  }else{
 
 
   IcsGetLayout (ip, &dt, &ndims, dims);
@@ -86,11 +92,17 @@ RcppExport SEXP readICS(SEXP input, SEXP verbose) {
   buf = malloc (bufsize);
   if (buf == NULL){
     Rcpp::Rcout << "====== ERROR ======" << std::endl;
+    Rcpp::Rcout << "Could not allocate memory" << std::endl;
+
+    return R_NilValue;
   }
     /* Flag error condition*/ ;
   retval = IcsGetData (ip, buf, bufsize);
   if (retval != IcsErr_Ok){
     Rcpp::Rcout << "====== ERROR ======" << std::endl;
+    Rcpp::Rcout << "Could not open data" << std::endl;
+
+    return R_NilValue;
   }
     if(VERBOSE){ Rcpp::Rcout << "====== Image read ======" << std::endl;}
 
@@ -182,5 +194,6 @@ RcppExport SEXP readICS(SEXP input, SEXP verbose) {
     _["histo"] = histoCount,
     _["range"] = rangeR
   );
+  }
   END_RCPP
 }
