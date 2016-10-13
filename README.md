@@ -33,8 +33,8 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 With homebrew install OpenCV 3.0:
 ```
-brew install https://raw.githubusercontent.com/Homebrew/homebrew-science/d154fff3192ab13bb69b0b7cb5b297a947a565e2/opencv3.rb
-brew pin opencv3
+brew install opencv3 --HEAD --with-ffmpeg --with-tbb --with-contrib
+brew link opencv3 --force
 ```
 
 
@@ -55,12 +55,8 @@ sudo make install
 Type the following into the terminal.
 
 ```
-curl -O http://www.fftw.org/fftw-3.3.4.tar.gz
-tar zxf fftw-3.3.4.tar.gz
-cd fftw-3.3.4
-./configure --enable-shared --enable-threads
-make
-sudo make install
+brew install fftw --enable-shared --enable-threads
+brew link fftw --force
 ```
 
 ####On Linux:
@@ -84,9 +80,9 @@ devtools::install_github("tractatus/fisseq")
 
 Open up R and first remove the fisseq package:
 ```R
-#Uninstall anything still remaining of old wholebrain R package.
+#Uninstall anything still remaining of old fisseq R package.
  remove.packages('fisseq')
-#importantly quit R before reinstalling the wholebrian package.
+#importantly quit R before reinstalling the fisseq package.
  quit()
 ```
 
@@ -96,11 +92,11 @@ Open up R again and install the package again:
 #if not then install devtools.
 #Devtools is needed to install packages from Github.
 if (!require(devtools)) { install.packages("devtools") }
-#intall wholebrain from Github. 
+#intall fisseq from Github. 
 #devtools:: calls the command install_github directly from devtools.
 # "::" calls functions directly without loading entire library. 
  devtools::install_github("tractatus/fisseq")
- library(wholebrain)
+ library(fisseq)
 ```
 
 
