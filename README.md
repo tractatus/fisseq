@@ -33,7 +33,8 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 With homebrew install OpenCV 3.0:
 ```
-brew install opencv3 --HEAD --with-ffmpeg --with-tbb --with-contrib
+brew tap homebrew/science
+brew install pkg-config opencv3 --HEAD --with-ffmpeg --with-tbb --with-contrib
 brew link opencv3 --force
 ```
 
