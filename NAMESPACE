@@ -3,3 +3,4 @@ useDynLib(fisseq)
 
 
 export(hist.match.ics)
+export(imshow)
