@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="460.586px" height="191.595px" viewBox="0 0 460.586 191.595" enable-background="new 0 0 460.586 191.595"
+	 xml:space="preserve">
+<g>
+	<g>
+		<path fill="#DBDBDB" d="M338.225,153.924c-60.905,0-110.278-33.066-110.278-73.856S277.319,6.211,338.225,6.211
+			c60.904,0,110.277,33.066,110.277,73.856S399.129,153.924,338.225,153.924z M355.104,35.087c-46.293,0-83.82,22.605-83.82,50.491
+			c0,27.886,37.527,50.491,83.82,50.491c46.292,0,80.456-15.455,80.456-50.491C435.561,50.553,401.396,35.087,355.104,35.087z"/>
+	</g>
+	<text transform="matrix(1 0 0 1 11.7783 116.2896)" font-family="'Lato-Bold'" font-size="120">fisseq</text>
+	<text transform="matrix(1 0 0 1 315.7808 175.2886)" fill="#353535" font-family="'Lato-Bold'" font-size="170">R</text>
+	<text transform="matrix(1 0 0 1 22.2773 174.8877)" font-family="'Lato-Bold'" font-size="24" letter-spacing="2">bioinformatics for FISH</text>
+	<circle fill="#7C007F" cx="30.781" cy="138.379" r="8.504"/>
+	<circle fill="#00CCC2" cx="112.81" cy="138.379" r="8.504"/>
+	<circle fill="#FF0000" cx="276.866" cy="138.379" r="8.504"/>
+	<circle fill="#00CC00" cx="194.838" cy="138.379" r="8.504"/>
+</g>
+</svg>
