@@ -1,6 +1,7 @@
+
+<img src="https://cdn.rawgit.com/tractatus/fisseq/master/fisseqR_logo.svg" width="100%" height="80"  align="left">
 FISSEQ with R
 ==============
-<img src="https://cdn.rawgit.com/tractatus/fisseq/master/fisseqR_logo.svg" width="100%" height="80">
 
 `fisseq` is a powerful minimal R package for in situ sequencing microscopic images. It interfaces C++ image processing tools with higher level bioinformatics, statistical and visualization tools from R. It is designed to work well on an ordinary laptop with limited RAM (~8 GB), as well as a large server or cluster.
 
