@@ -19,9 +19,10 @@ FISSEQ with R
 Since this is a developing version no static binaries are compiled and hence the user first needs to compile the C/C++ libraries from source (this makes updating considerably easy until all core features are in place and have been tested. By that time we'll compile binaries and the whole package will be as easy to install as any package on CRAN).
 
 Begin by compiling OpenCV (depending on if you have core libraries for rreading writing TIFF/PNG etc installed or not this could eithe rtake 20 minutes of several hours).
-####Mac OSX
 
-#####Install OpenCV 3.0:
+#### Mac OSX
+
+##### Install OpenCV 3.0:
 
 make sure you have XCode with command line tools installed (otherwise install it from the Appstore).
 Check if you have homebrew by opening the Terminal app and enter:
@@ -35,14 +36,13 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 With homebrew install OpenCV 3.0:
 ```
-brew tap homebrew/science
 brew install pkg-config opencv3 --HEAD --with-ffmpeg --with-tbb --with-contrib
 brew link opencv3 --force
 ```
 
 
 
-#####Install libics:
+##### Install libics:
 Type the following into the terminal.
 
 ```
@@ -54,7 +54,7 @@ make
 sudo make install
 ```
 
-#####Install FFTW3:
+##### Install FFTW3:
 Type the following into the terminal.
 
 ```
@@ -62,13 +62,13 @@ brew install fftw --enable-shared --enable-threads
 brew link fftw --force
 ```
 
-####On Linux:
+#### On Linux:
 ```
 sudo apt-get install libopencv-dev
 sudo apt-get install fftw3 fftw3-dev pkg-config
 ```
 
-####Install the fisseq R package from R:
+#### Install the fisseq R package from R:
  
 Open up R and type the following:
 ```R
